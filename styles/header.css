@@ -41,6 +41,9 @@ body{
     font-weight: 600;
     cursor: default;
 }
+.active{ 
+    color: var(--main-color)
+}
 .navbar a {
     font-size: 1.4rem;
     color: var(--text-color);
@@ -49,8 +52,7 @@ body{
 
 }
 
-.navbar a:hover,
-.navbar a .active{ 
+.navbar a:hover{
     color: var(--main-color);
 }
 #menu-icon{
