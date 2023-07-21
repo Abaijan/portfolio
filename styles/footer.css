@@ -1,0 +1,14 @@
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946 ;
+    --text-color: #fff ;
+    --main-color: #0ef;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9% ;
+    background: var(--second-bg-color)
+}
