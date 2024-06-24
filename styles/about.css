@@ -21,19 +21,38 @@
 
 }
 .about-img img{
-    height: 100vh;
+    height: 45vw;
     width: 30vw;
 }
 .about-img i{
     position: absolute;
 }
 .react-icon{
-    right: -3vw;
+    right: -8vw;
     font-size: 15vw;
     z-index: 0;
     color: #1f242d;
     transform: rotatez(40deg);
     transform: rotatey(20deg);
+    animation: 5s linear 0s normal none infinite running rot;
+    -webkit-animation: 5s linear 0s normal none infinite running rot;;
+}
+@keyframes react-icon{
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @-webkit-keyframes rot {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    
 }
 .redux-icon{
     left: 2.6vw;
