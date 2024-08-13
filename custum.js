@@ -30,7 +30,7 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
     const botToken = '7221637687:AAFc2kP7V7UlizVK-0ucC6G3ja_wcmhEp8I';
     const chatId = '5970023965';
     if(name !== '' || email !== '') {
-        const text = `New message from contact form:\n\nName: ${name}\nEmail: ${email}\nMessage:\n${message}`;
+        const text = `New message :\n\nName: ${name}\nEmail: ${email}\nMessage:\n${message}`;
 
         try {
             const response = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
